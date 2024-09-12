@@ -1,7 +1,6 @@
-# This is going to be my first python script file for the ALx Program. 
-# Let's go!
+#This is going to be my first python script file for the ALx Program. Let's GO!
 
-# I will define two variables now
+# Defining the predetermined variables
 number1 = 10
 number2 = 5
 
@@ -15,4 +14,3 @@ print('assuming the number1 = ' +str(number1)+ ' and the number2= '+str(number2)
 print('Addition of ' +str(number1) +' and ' +str(number2) +' is ' + str(sum_of_numbers))
 print('Subtraction of ' +str(number1) +' and ' +str(number2) +' is ' + str(diff_of_numbers))
 print('Multiplication of ' +str(number1) +' and ' +str(number2) +' is ' + str(prod_of_numbers))
-
