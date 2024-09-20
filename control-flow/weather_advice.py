@@ -1,7 +1,6 @@
 # This is a program written in python that gives weather advice to users
 
-user_input = input('What\'s the weather like today? (sunny/rainy/cold): ').lower()
-
+user_input = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 if user_input == 'sunny':
     print(f'Wear a t-shirt and sunglasses.')
 elif user_input == 'rainy':
