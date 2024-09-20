@@ -4,7 +4,7 @@
 # Defining my variables
 task = input('Enter your task: ').strip().capitalize()
 priority = input('Priority (high/medium/low): ').lower().strip()
-time_bound = input('Is it time bound? (yes/no):').lower().strip()
+time_bound = input('Is it time-bound? (yes/no):').lower().strip()
 
 match priority:
     case 'high':
