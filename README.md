@@ -64,5 +64,5 @@
     Anyways, that’s all for Week 3. Thanks and bye!
 
 
-# INTRODUCING LOGIC TO PROGRAMMING [Control flow and Loops]
+# WEEK 4: INTRODUCING LOGIC TO PROGRAMMING [Control flow and Loops]
     To be updated
