@@ -62,3 +62,7 @@
     defining functions and methods and applying an object-oriented programming (OOP) approach. 
     I’ll link the repository to that work here [insert_link]. 
     Anyways, that’s all for Week 3. Thanks and bye!
+
+
+# INTRODUCING LOGIC TO PROGRAMMING [Control flow and Loops]
+    To be updated

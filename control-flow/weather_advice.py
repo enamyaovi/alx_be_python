@@ -1,6 +1,9 @@
-# This is a program written in python that gives weather advice to users
+# This program suggests what to wear depending on the weather returned from the
+# User's response in the prompt.
 
-weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower().strip() # prompt for user to enter condition
+
+#Conditionals to return clothing recommendation based on weather
 if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
