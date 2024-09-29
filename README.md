@@ -66,3 +66,7 @@
 
 # WEEK 4: INTRODUCING LOGIC TO PROGRAMMING [Control flow and Loops]
     To be updated
+
+
+# WEEK 5: INTRODUCTION TO FUNCTIONS DATA STRUCTURES AND MODULES
+    To be updated
