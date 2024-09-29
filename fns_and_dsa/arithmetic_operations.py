@@ -14,7 +14,7 @@ def perform_operation(num1, num2, operation):
         case 'divide':
             if num2 == 0:
                 return f'Division by Zero not allowed'
-            else:
+            elif:
                 return num1/num2
         case _:
             return f'Invalid Input, Try Strings like add ...'
