@@ -11,7 +11,7 @@ def user_prompt_func():
     try: # this try and except block is for catching wrong input type error
         temperature_value = int(input('Enter the temperature to convert: '))
     except ValueError:
-        print('Invalid temparature. Please enter a numeric value.')
+        print('Invalid temperature. Please enter a numeric value.')
         quit()
 
     temperature_type = input('Is this temperature in Celsius or Fahrenheit? (C/F): ').capitalize()
