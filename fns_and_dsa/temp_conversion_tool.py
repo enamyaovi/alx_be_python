@@ -31,7 +31,7 @@ def convert_to_celsius(fahrenheit):
 
 def convert_to_fahrenheit(celsius):
     """Converts Celcius to Fahrenheit using the value from user input in user prompt function"""
-    return (celsius - 32) * CELSIUS_TO_FAHRENHEIT_FACTOR
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 def main():
     """ This function describes the main logic of the program. From handling user input to printing out the results
