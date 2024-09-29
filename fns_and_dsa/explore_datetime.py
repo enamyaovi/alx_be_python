@@ -19,7 +19,8 @@ def display_current_datetime():
     def calculate_future_date():
         """Calculates the future date by user input"""
 
-        future_date = (current_date + time_delta).strftime('%Y-%m-%d')
+        future_date = (current_date + time_delta)
+        future_date = future_date.strftime('%Y-%m-%d')
         print(f'Future date: {future_date}')
     calculate_future_date()
 
