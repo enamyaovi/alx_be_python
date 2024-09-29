@@ -1,7 +1,7 @@
 # This program converts the temparature from Farhenheit to Celcius and vice versa
 
-FAHRENHEIT_TO_CELSIUS_FACTOR = (5/9)
-CELSIUS_TO_FAHRENHEIT_FACTOR = (9/5)
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 degree_symbol = "\u00B0"
 
 def user_prompt_func():
