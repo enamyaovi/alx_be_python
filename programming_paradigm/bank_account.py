@@ -12,10 +12,10 @@ class BankAccount:
 
         if amount >= 0:
             self.__account_balance += amount  # Increases account balance if valid
-            print(f'Deposited: ${self.__account_balance}')
+            # print(f'Deposited: ${self.__account_balance}'
             return True
         elif amount < 0:
-            print(f'Error, the amount ${amount:.2f} is invalid.') # Rejects negative deposit amounts
+            # print(f'Error, the amount ${amount:.2f} is invalid.') # Rejects negative deposit amounts
             return False
         else:
             return f'Invalid Input, try again.'
@@ -26,10 +26,10 @@ class BankAccount:
 
         if self.__account_balance >= amount and amount > 0:
             self.__account_balance -= amount  # Deducts the withdrawal amount from balance
-            print(f'Withdrew: ${self.__account_balance:.2f}')
+            # print(f'Withdrew: ${self.__account_balance:.2f}')
             return True  # Confirms successful withdrawal 
         elif self.__account_balance < amount: 
-            print('Insufficient Funds')
+            # print('Insufficient Funds')
             return False  # Prevents withdrawal if balance is insufficient
         elif amount < 0:
             print(f'Sorry cannot withdraw negative amount!')
@@ -40,5 +40,5 @@ class BankAccount:
     
     def display_balance(self):
         """Displays bank Balance"""
-        print(f'Current Balance: ${self.__account_balance}')
-        return self.__account_balance  # Returns formatted b
+        # print(f'Current Balance: ${self.__account_balance}')
+        return f'Current Balance: ${self.__account_balance}'  # Returns formatted b
