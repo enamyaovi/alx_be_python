@@ -1,4 +1,4 @@
-class BankAccount():
+class BankAccount:
     """Simulates banking operations like withdrawals, deposits and balance checking"""
     
     def __init__(self, name_of_account: str = 'John Doe', bank_balance: float = 0) -> None:
