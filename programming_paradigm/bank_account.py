@@ -1,10 +1,10 @@
 class BankAccount:
     """Simulates banking operations like withdrawals, deposits and balance checking"""
     
-    def __init__(self, name_of_account: str = 'John Doe', bank_balance: float = 0) -> None:
+    def __init__(self, bank_balance: float = 0) -> None:
         """Initializes instances of the bank account. The balance at the creating of account is 0.
         Default name is assigned John-Doe"""
-        self.name_of_account = name_of_account  # Stores the name of the account holder
+        # self.name_of_account = name_of_account  # Stores the name of the account holder
         self.__account_balance = bank_balance  # Initializes account balance, private to the class
     
     def deposit(self, amount: float):
