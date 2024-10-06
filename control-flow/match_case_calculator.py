@@ -3,10 +3,25 @@
 # match case block is implemented for the operation to avoid writing spaghetti if statements
 
 
+
 # variables for prompting user for numbers and operator
-num1 = int(input('Enter the first number: '))
-num2 = int(input('Enter the second number: '))
-operation = input('Choose the operation (+, -, *, /): ')
+while True:
+    try:
+        num1: int = int(input('Enter the first number: '))
+        num2: int = int(input('Enter the second number: '))
+        operation: str = input('Choose the operation (+, -, *, /): ')
+    except ValueError:
+        print(f'You have entered the wrong input, please enter a numeric value like: 1, 2, 3 ...')
+    else:
+        print(f'Your numbers are {num1} and {num2}. Selected Operation is {operation}')
+        break
+    finally:
+        print('Finally Block: Executes no matter what.')
+        
+
+    
+
+
 
 # match case block for different operation scenarios
 match operation:
@@ -19,7 +34,8 @@ match operation:
     case '/':
         if num2 == 0:  #this if statement is to prevent a zerodivision error in case denominator is zero
             print('Cannot divide by zero.')
-            exit()
-        result = num1/num2
+            quit()
+        else:
+            result = num1/num2
         
 print(f'The result is {int(result)}')
