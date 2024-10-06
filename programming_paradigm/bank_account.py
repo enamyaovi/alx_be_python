@@ -24,18 +24,17 @@ class BankAccount:
     def withdraw(self, amount: float):
         """Withdraws amount from balance and updates current balance"""
 
-        if self.__account_balance >= amount:  #and amount > 0:
+        if 0 < amount <= self.__account_balance:  #and amount > 0:
             self.__account_balance -= amount  # Deducts the withdrawal amount from balance
             # print(f'Withdrew: ${self.__account_balance:.2f}')
             return True  # Confirms successful withdrawal 
-        elif self.__account_balance < amount: 
-            # print('Insufficient Funds')
+        else: 
             return False  # Prevents withdrawal if balance is insufficient
         # elif amount < 0:
         #     print(f'Sorry cannot withdraw negative amount!')
         #     return False
-        else:
-            return f'Invalid Input.'
+        # else:
+        #     return f'Invalid Input.'
         
     
     def display_balance(self):
