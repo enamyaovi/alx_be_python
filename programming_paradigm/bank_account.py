@@ -24,7 +24,7 @@ class BankAccount:
     def withdraw(self, amount: float):
         """Withdraws amount from balance and updates current balance"""
 
-        if self.__account_balance >= amount  #and amount > 0:
+        if self.__account_balance >= amount:  #and amount > 0:
             self.__account_balance -= amount  # Deducts the withdrawal amount from balance
             # print(f'Withdrew: ${self.__account_balance:.2f}')
             return True  # Confirms successful withdrawal 
