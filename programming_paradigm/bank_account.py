@@ -31,9 +31,9 @@ class BankAccount:
         elif self.__account_balance < amount: 
             # print('Insufficient Funds')
             return False  # Prevents withdrawal if balance is insufficient
-        elif amount < 0:
-            print(f'Sorry cannot withdraw negative amount!')
-            return False
+        # elif amount < 0:
+        #     print(f'Sorry cannot withdraw negative amount!')
+        #     return False
         else:
             return f'Invalid Input.'
         
