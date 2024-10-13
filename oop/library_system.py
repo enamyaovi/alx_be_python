@@ -15,7 +15,7 @@ class Book:
 
     def __str__(self):
         """Provides a user-friendly string representation of the book."""
-        return f'{self.title} by {self.author}'
+        return f'{self.__class__.__name__}: {self.title} by {self.author}'
 
     def __repr__(self):
         """Provides a detailed string representation of the book for debugging."""
